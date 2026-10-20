@@ -1,26 +1,43 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* الوضع الداكن (الافتراضي) */
+:root,
+:root[data-theme="dark"] {
+  --bg: #0a0f1c;
+  --surface: #121a2b;
+  --surface-2: rgba(47, 214, 154, 0.1);
+  --text: #f2f6f5;
+  --muted: #8a98ad;
+  --accent: #2fd69a;
+  --highlight: #d5e24a;
+  --border: #1f2a40;
+  --dot: rgba(255, 255, 255, 0.05);
+  --glow: rgba(47, 214, 154, 0.1);
+  --callout-bg: #1a1f12;
+  --callout-border: #3a4214;
+  --callout-title: #d5e24a;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* الوضع الفاتح */
+:root[data-theme="light"] {
+  --bg: #f4f7f6;
+  --surface: #ffffff;
+  --surface-2: rgba(16, 185, 129, 0.12);
+  --text: #0f1a17;
+  --muted: #5d6e68;
+  --accent: #10b981;
+  --highlight: #6d7a10;
+  --border: #dde6e2;
+  --dot: rgba(15, 26, 23, 0.07);
+  --glow: rgba(16, 185, 129, 0.12);
+  --callout-bg: #f6f9e6;
+  --callout-border: #d9e4a3;
+  --callout-title: #6d7a10;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg);
+  background-image: radial-gradient(var(--dot) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: var(--text);
 }
