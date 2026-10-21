@@ -7,9 +7,12 @@ Knowbit is a lightweight micro-learning web app that helps you learn one foundat
 
 **Live demo:** [[link here]](https://knowbit-zeta.vercel.app/)
 
-![Knowbit preview](./public/preview.png)
+<img width="1908" height="1093" alt="screencapture-knowbit-zeta-vercel-app-2026-10-21-08_15_45" src="https://github.com/user-attachments/assets/56bcbcd2-1c9a-470c-9e02-5f64967e2df8" />
+<img width="1908" height="1710" alt="screencapture-knowbit-zeta-vercel-app-topics-database-001-2026-10-21-08_17_58" src="https://github.com/user-attachments/assets/3f874669-25b9-4d3f-b764-e1667dad79f9" />
+<img width="1908" height="952" alt="screencapture-knowbit-zeta-vercel-app-surprise-2026-10-21-08_19_41" src="https://github.com/user-attachments/assets/85fc484c-5b10-4224-ac41-513e16535847" />
 
-> Add a screenshot at `public/preview.png`, or remove the line above.
+
+
 
 ## Why Knowbit?
 
